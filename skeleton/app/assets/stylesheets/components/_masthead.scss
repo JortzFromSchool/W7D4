@@ -4,7 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
-}
+} 
 
 .language-nav {
 	position: absolute;
@@ -40,8 +40,10 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	align-items: center;
 
 	li {
+		list-style: none;
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
 	}
