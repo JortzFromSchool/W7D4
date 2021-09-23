@@ -1,22 +1,30 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: normal;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+      font-family: nyt-franklin, helvetica, arial, sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
     }
+
   }
 
-  span {
 
+
+  span {
+    margin: 8px;
   }
 }
 
@@ -25,7 +33,9 @@
   > ul {
 
     > li {
-  
+      font-family: nyt-franklin, helvetica, arial, sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
     }
 
     > li:last-of-type {
@@ -34,11 +44,11 @@
   }
   
   i {
-
+    font-size: 20px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background: $lightest-gray;
 }

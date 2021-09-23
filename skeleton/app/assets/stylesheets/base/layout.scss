@@ -6,20 +6,23 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
+	background-color: #557b95;
+	border-color: #436785;
+	color: whitesmoke;
+	font-weight: bolder;
+	padding: 8px;
 	// border-radius:
 	// transition:
-	// font-family:
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	// text-transform:
-	// font-size:
+	font-size: 11px;
 	// text-align:
 }
 
