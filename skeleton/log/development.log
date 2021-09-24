@@ -2948,3 +2948,34 @@ Completed 200 OK in 1655ms (Views: 1594.6ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/application.self-e8d248864982925f3ac40353262aec6790fff6f01c372078c1281754e5b9a242.css?body=1" for ::1 at 2021-09-23 17:14:33 -0400
 Started GET "/assets/AA_Times_Logo.png" for ::1 at 2021-09-23 17:14:33 -0400
+Started GET "/" for ::1 at 2021-09-23 17:21:04 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/jortz/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (49.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (391.9ms)
+Completed 200 OK in 4289ms (Views: 4230.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-33f6e7729a80cee15cd8724a6cd44799e341ea33a9e8e2dcf0d5c4258f7bbe67.css?body=1" for ::1 at 2021-09-23 17:21:10 -0400
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2021-09-23 17:21:10 -0400
+Started GET "/" for ::1 at 2021-09-23 17:24:03 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (46.1ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (304.2ms)
+Completed 200 OK in 1566ms (Views: 1512.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-da8cba7faf714e52aef64e9ac0095e944e73589b3b5fe7e31854c57d1ce66c62.css?body=1" for ::1 at 2021-09-23 17:24:04 -0400
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2021-09-23 17:24:04 -0400
